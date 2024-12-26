@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Erste Landing</title>    
-    </head>
-    <body>
-       <div class="header">
-            <div class="header_logo">Workshop Perfectoria</div>
-             <div>
-                <ul>
-                    <li><a href="#main_info"> Photo</a></li>
-                    <li><a href="#main_cite"> Cite</a></li>
-                    <li><a href="#main_signup"> Sign up</a></li>
-                </ul>
-            </div>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive guide to everything about cats, their care, and unique traits.">
+	<link rel="stylesheet" href="styles.css">
+	<title> Catpedia Guide - Everything About Cats</title>
+</head>
+
+<body>
+	<div class="header">
+		<div class="header-logo">
+            <img title="Logo" src="logo.jpg" alt="Catpedia Guide">
+            <p>Catpedia Guide</p>
         </div>
-       <div class="main">
-            <div class="main_promo">
-                <div class="promo_text">
-                    <p class="promo_slogan">This webseite is awesome</p>
-                    <p>Time spent with cats is never wasted.</p>
-                    <button>Sign up</button>  
+     	<div>
+            <nav>
+                <ul>
+                    <li><a href="#main-info">Photo</a></li>
+                    <li><a href="#main-cite">Cite</a></li>
+                    <li><a href="#main-signup">Sign up</a></li>
+                </ul>
+            </nav>
+		</div>
+	</div>
+	<div class="main">
+        <section>
+            <div class="main-promo">
+                <div class="promo-text">
+                    <p class="promo-slogan">Everything You Wanted to Know About Cats But Were Afraid to Ask</p>
+                    <p>This guide explores fascinating facts about cats, their behavior, unique traits, and how to care for these lovable yet mysterious companions.</p>
+                    <button aria-label="Sign up">Sign up</button>
                 </div>
-                <div class="promo_img"><img title="Main foto" src="cat0.jpeg" alt="600x300"></div>
+                <div class="promo-img"><img title="Main foto" src="cat0.jpeg" alt="Promotional image of a cat 600x300"></div>
             </div>
-            <div id="main_info" class="main_info">
-                <div class="info_title">Photos from our users</div>
-                <div class="info_content">
-                        <div class="content_item">
-                             <div class="content_foto"><img title="Cat #1" src="cat1.jpeg" alt="cat1.jpeg"></div>
-                             <p class="content_text">This cat observes everything around with curious, intelligent eyes.</p>
-                        </div>
-                        <div class="content_item">
-                            <div class="content_foto"><img title="Cat #2"  src="cat2.jpeg" alt="cat2.jpeg"></div>
-                            <p class="content_text">The sleek gray cat prowls gracefully under the moonlit sky</p>
-                        </div>
-                        <div class="content_item">
-                            <div class="content_foto"><img title="Cat #3"  src="cat3.jpeg" alt="cat3.jpeg"></div>
-                            <p class="content_text">A curious kitten explores the garden, sniffing every corner carefully.</p>
-                        </div>
-                        <div class="content_item">
-                            <div class="content_foto"><img title="Cat #4"  src="cat4.jpeg" alt="cat4.jpeg"></div>
-                            <p class="content_text">A playful cat chases a feather, leaping high with joy</p>
-                        </div>
-                    
+         </section>
+         <section>
+            <div id="main-info" class="main-info">
+                <div class="info-title">Photos from our users</div>
+                <div class="info-content">
+                    <div class="content-item">
+                        <div class="content-foto"><img title="Cat #1" src="cat1.jpeg" alt="cat1.jpeg"></div>
+                        <p class="content-text">This cat observes everything around with curious, intelligent eyes.</p>
+                    </div>
+                    <div class="content-item">
+                        <div class="content-foto"><img title="Cat #2" src="cat2.jpeg" alt="cat2.jpeg"></div>
+                        <p class="content-text">The sleek gray cat prowls gracefully under the moonlit sky</p>
+                    </div>
+                    <div class="content-item">
+                        <div class="content-foto"><img title="Cat #3" src="cat3.jpeg" alt="cat3.jpeg"></div>
+                        <p class="content-text">A curious kitten explores the garden, sniffing every corner carefully.</p>
+                    </div>
+                    <div class="content-item">
+                        <div class="content-foto"><img title="Cat #4" src="cat4.jpeg" alt="cat4.jpeg"></div>
+                        <p class="content-text">A playful cat chases a feather, leaping high with joy</p>
+                    </div>
                 </div>
             </div>
-            <div id="main_cite" class="main_cite">
-                <blockquote>
-                     I love cats because I enjoy my home; and little by little, they become its visible soul.
-                      <footer><cite class="autor">Jean Cocteau </cite></footer>
-                </blockquote>
-                
-            </div>
-            <div id="main_signup" class="main_signup">
-                <div><strong>Call to action! It's time! </strong> <p>Sign up for our product by clicking that button right over there! </p></div>
-                <div><button>Sign up</button>
-                </div>
-            </div>
-       </div>
-       <div class="footer">© 2024 Made by TAURUS-ESSEN</div>
+        </section>
+        <section>
+		<div id="main-cite" class="main-cite">
+			<blockquote> I love cats because I enjoy my home; and little by little, they become its visible soul.
+				<footer><cite>Jean Cocteau </cite></footer>
+			</blockquote>
+		</div>
+		<div id="main-signup" class="main-signup">
+			<div><strong>Call to action! It's time! </strong>
+				<p>Sign up for our product by clicking that button right over there! </p>
+			</div>
+			<div>
+				<button aria-label="Sign up">Sign up</button>
+			</div>
+		</div>
+	</div>
+    </section>
+	<div class="footer">© 2024 Made by TAURUS-ESSEN</div>
+</body>
 
-
-        
-    </body>
 </html>
